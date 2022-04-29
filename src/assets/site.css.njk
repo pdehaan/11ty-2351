@@ -1,0 +1,9 @@
+---
+permalink: assets/site.css
+---
+
+{%- set latest = collections.pages | last -%}
+
+.block {
+  background-image: url("{{ latest.data.hero }}");
+}

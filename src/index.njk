@@ -1,0 +1,13 @@
+---
+title: HOME
+---
+
+<h2>Latest Post</h2>
+{%- set latest = collections.pages | last -%}
+<p><a href="{{ latest.url }}">{{ latest.data.title }}</a> <time>{{ latest.date | date_fmt }}</time></p>
+<img src="{{ latest.data.hero }}" />
+
+<h2>All Posts</h2>
+{%- for p in collections.pages %}
+<p><a href="{{ p.url }}">{{ p.data.title }}</a> <time>{{ p.date | date_fmt }}</time></p>
+{%- endfor %}
