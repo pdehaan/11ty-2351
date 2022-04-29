@@ -9,8 +9,17 @@
   "keywords": [],
   "author": "Peter deHaan <peter@deseloper.com>",
   "license": "MPL-2.0",
-  "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-2351.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-2351/issues"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-2351#readme",
+  "description": ""
 }
